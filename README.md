@@ -11,11 +11,12 @@ python main.py
 
 ## Structure
 
-house-prices/
-├── data/                     # train.csv, test.csv 
+```
+house-prices project/
+├── data/                     # train.csv, test.csv (not tracked)
 ├── notebooks/
-│   ├── EDA.ipynb             
-│   └── experiments.ipynb    # preprocessing, modeling
+│   ├── EDA.ipynb             # exploratory data analysis
+│   └── experiments.ipynb    # preprocessing, modeling, experiments
 ├── results/
 │   └── comparison_table.csv
 ├── src/
@@ -25,9 +26,9 @@ house-prices/
 │   ├── model.py
 │   └── utils.py
 ├── config.yaml               # model hyperparameters
-├── main.py                   
+├── main.py                   # entry point
 └── requirements.txt
-
+```
 ## Results
 
 | Experiment               | RMSE   | Notes                                      |
