@@ -3,16 +3,17 @@
 
 ## Usage
 
+```bash
 python -m venv .venv
-venv\Scripts\activate  
+.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python main.py
-
+```
 
 ## Structure
 
 ```
-house-prices project/
+house-prices /
 ├── data/                     # train.csv, test.csv (not tracked)
 ├── notebooks/
 │   ├── EDA.ipynb             # exploratory data analysis
