@@ -13,11 +13,10 @@ python main.py
 ## Structure
 
 ```
-house-prices /
-├── data/                     # train.csv, test.csv (not tracked)
-├── notebooks/
-│   ├── EDA.ipynb             # exploratory data analysis
-│   └── experiments.ipynb    # preprocessing, modeling, experiments
+house-prices/
+├── data/                     # train.csv, test.csv 
+├── EDA.ipynb                 # exploratory data analysis
+├── experiments.ipynb         # preprocessing, modeling
 ├── results/
 │   └── comparison_table.csv
 ├── src/
@@ -27,7 +26,7 @@ house-prices /
 │   ├── model.py
 │   └── utils.py
 ├── config.yaml               # model hyperparameters
-├── main.py                   # entry point
+├── main.py                   
 └── requirements.txt
 ```
 ## Results
