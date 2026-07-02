@@ -1,0 +1,9 @@
+experiment,rmse,notes
+LinearRegression_baseline,0.1309,"after preprocessing, no FE"
+LinearRegression_with_FE,0.1318,after preprocessing + FE
+RandomForest_gridsearch,0.1348,"n_estimators=300, max_depth=None, min_samples_leaf=2"
+XGB_optuna,0.1136,"n_estimators=507, lr=0.0491, max_depth=3"
+LGB_optuna,0.1188,"n_estimators=1080, lr=0.0495, max_depth=3"
+CatBoost_optuna,0.1121,"iterations=992, lr=0.0300, depth=5"
+Voting_XGB_LGB_CAT,0.112,VotingRegressor: XGB+LGB+CatBoost with best params
+NeuralNet_optuna,0.2123,"lr=0.0099, batch=64, epochs=187"
