@@ -1,6 +1,4 @@
 catboost_info/
-data/*.csv
-data/*.txt
 submission.csv
 __pycache__/
 *.pyc
